@@ -1,7 +1,9 @@
-function totalProduction(){
-    for (var i = 0; i < array.length; i++) {
-        return totalProduction;
-        
-    }
-}
-document.write(totalProduction);
+var sheds=["shed A", "shed B", "shed C", "shed D", "shed E"];
+    for (var i = 0; i < sheds.length; i++) 
+        {
+
+            console.l0g(sheds);
+        }
+    
+
+

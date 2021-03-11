@@ -1,6 +1,4 @@
-.label{
-    padding: 20px;
-    margin: 5px;
-    border: 2px solid black;
-    width: 100px;
+.input-field{
+    flex-direction: column;
+    
 }

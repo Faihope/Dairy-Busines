@@ -6,3 +6,16 @@
     
     
 }
+#one{
+    padding: 10px 0px 10px 0 px;
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+button{
+    padding: 20px;
+}

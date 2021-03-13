@@ -28,14 +28,19 @@
         <label for="Thursday">Shed D</label>
         <input type="text" id="four" name="four">
     </div>
-    <div class="input-field">
-        <label for="Friday">Shed E</label>
-        <input type="text" id="five" name="five">
-    </div>
 
-    <div class="input-field">
-        <input type="button" id="totalp" value="Total Production" onclick="totalProduction()">
+    <div class="input-field " >
+        <button id="totalp" onclick="productionPerShed()">
+            production.
+
+           <!-- <input type="button" id="totalp" value="Total Production" onclick="productionPerShed()"> -->
+        </button>
         <input type="button" id="reset" value="Reset" onclick="Reset">
+
+        <p id="one"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <p id="four"></p>
 
     </div>
 

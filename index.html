@@ -2,19 +2,21 @@
 <html>
 
 <head>
+    
     <title>Dairy Business Project.</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 
 </head>
 
 <body>
     <p>Daily Production of milk.</p>
-    <p>Sheds</p>
+    <p> List of Sheds</p>
     <div class="input-field">
         <label for="first">Shed A</label>
-        <input type="text" id="One" name="shed A">
+        <input type="text" id="one" name="shed A">
     </div>
     <div class="input-field">
         <label for="Tuesday">Shed B</label>
@@ -29,13 +31,11 @@
         <input type="text" id="four" name="four">
     </div>
 
-    <div class="input-field " >
-        <button id="totalp" onclick="productionPerShed()">
-            production.
+    <div class="input-field ">
 
-           <!-- <input type="button" id="totalp" value="Total Production" onclick="productionPerShed()"> -->
-        </button>
-        <input type="button" id="reset" value="Reset" onclick="Reset">
+        <input type="button" id="button" value="Total" onclick="total()">
+
+        <input type="button" id="reset" value="Reset" onclick="reset()">
 
         <p id="one"></p>
         <p id="two"></p>
@@ -43,8 +43,16 @@
         <p id="four"></p>
 
     </div>
+    <div id="production"></div>
 
-    <script src="index.js"></script>
+
+    
+    <h2>The income over time</h2>
+    <div id="business"></div>
+
+
+    <input type="button" id="button" value="Income Estimates" onclick="incomeOverTime();"><br><br>
+    
 </body>
 
 </html>

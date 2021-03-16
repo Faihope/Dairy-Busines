@@ -82,7 +82,7 @@ var period  = 7;
 function incomeOverTime(price, period){
   
     //document.getElementById("production").innerHTML = ' ';
-    income = period * 48 * 45;
+    income = 7 * 2400 * 45;
     
         document.getElementById("business").innerHTML +=  "Your  income over one week will be Ksh. "+ 15120 +"<br>"+ "<br>";
         document.getElementById("business").innerHTML +=  "Your  income over one year will be Ksh. "+ 3567020 +"<br>"+ "<br>";
@@ -101,7 +101,7 @@ var year =[
     amount:234000
   },
   {
-    name:"Fwebruary",
+    name:"February",
     amount:234000
   },
   {
